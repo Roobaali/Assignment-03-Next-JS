@@ -1,0 +1,25 @@
+.container {
+    width : 100%;
+    height: 100vh; /*100% view width height*/
+    border: 2px solid black;
+    background-color: deeppink;
+}
+.testingResponsive {
+    width: 500px;
+ height: 500px;
+ background-color: darkblue;
+ border-radius:10px
+
+}
+    
+
+@media only screen and (min-width:200px){
+  .testingResponsive{ 
+    background-color: darkcyan;
+  }
+  }
+@media only screen and (max-width:300px){
+.testingResponsive{ 
+  width: 200px;
+  height: 200px;
+}}
